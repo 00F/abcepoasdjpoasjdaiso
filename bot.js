@@ -300,7 +300,7 @@ p19.on('message', message => {
         message.channel.send(message.content.toLowerCase().split(' ').slice(1).join(' '));
     }
 });
-p10.on('message', message => {
+p20.on('message', message => {
     if(message.author.id !== '358038951698759680') return;
     if(message.content.toLowerCase().split(' ')[0] == '20s') {
         if(!message.content.toLowerCase().split(' ').slice(1).join(' ')) return message.channel.send('What i say?');
